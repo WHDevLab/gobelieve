@@ -38,6 +38,7 @@
 @property(nonatomic, copy) NSString *host;
 @property(nonatomic)BOOL reachable;
 @property(nonatomic, strong) dispatch_queue_t queue;
+@property(nonatomic, assign)BOOL ssl;
 
 //protect
 @property(nonatomic)int port;
